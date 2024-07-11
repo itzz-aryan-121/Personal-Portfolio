@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 
-import Boom from "../public/boom.png";
-import Chat from "../public/chat.png";
-import Res from "../public/res.png";
+import BoomImg from "@/public/Boom.png";
+import ChatImg from "@/public/Chat.png";
+import ResImg from "@/public/Res.png";
 
 export const links = [
   {
@@ -66,7 +66,7 @@ export const projectsData = [
     description:
       "I worked as a full-stack developer on this startup project. Users can give public feedback to it.",
     tags: ["React", "Next.js", "Clerk", "Tailwind"],
-    imageUrl: Boom,
+    imageUrl: BoomImg,
     link: "https://video-web-to.vercel.app/"
   },
   {
@@ -74,7 +74,7 @@ export const projectsData = [
     description:
       "A real-time chat application where users can create rooms and chat with each other. It also has a dark mode.",
     tags: ["React", "Firebase", "Tailwind", "Redux"],
-    imageUrl: Chat,
+    imageUrl: ChatImg,
     link: "https://message-mingle.vercel.app/"
   },
   {
@@ -82,7 +82,7 @@ export const projectsData = [
     description:
       "A website for Restaurant where users can see the menu and book a table.",
     tags: ["React", "Tailwind", "Framer"],
-    imageUrl: Res,
+    imageUrl: ResImg,
     link: "https://geritch-svg.vercel.app/"
   },
 ] as const;
