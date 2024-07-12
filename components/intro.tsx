@@ -91,7 +91,8 @@ export default function Intro() {
           transition={{ delay: 0.9 }}
           className=" block"
         >
-          <span className="font-bold text-black">I enjoy building Web-sites & Web-apps.</span>
+          <span className="font-bold text-black">I enjoy building</span>
+          <span className="text-white font-bold">  Web-sites & Web-apps</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
