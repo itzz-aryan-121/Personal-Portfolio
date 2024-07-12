@@ -89,8 +89,8 @@ export const projectsData = [
 
 export const skillsData = [
   "Frontend: React (Next.js), HTML5, CSS3, JavaScript (ES6+)",
-  "Backend: Node.js, Express.js",
-  "Database: MongoDB, MySQL",
+  "Backend: Node.js, Express.js,EJS",
+  "Database: MongoDB, MySQL,Firebase,Convex",
   "Tools: Git, VS Code, Postman",
   "Other: Responsive Design, RESTful APIs, Version Control"
 ] as const;
