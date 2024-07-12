@@ -74,32 +74,34 @@ export default function Intro() {
           transition={{ delay: 0.5 }}
           className="block"
         >
-          This is <span className="font-bold text-white">Aryan Tomar!</span>
+          <span className="font-bold text-[#1a1a2e]">This is</span> <span className="font-bold text-white">Aryan Tomar!</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
-          className=" text-gray font-medium block"
+          className=" block"
         >
-          I'm a{" "}
-          <span className="text-white font-bold">Full-Stack Developer 👨‍💻</span>
+          <span className="font-bold text-yellow-600">I'm a{" "}</span>
+          <span className="text-white font-bold bg-dark">Full-Stack Developer 👨‍💻</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          className=" text-gray font-medium block"
+          className=" block"
         >
-          I enjoy building Web-sites & Web-apps.
+          <span className="font-bold text-blue-400">I enjoy building Web-sites & Web-apps.</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.1 }}
-          className="text-gray font-medium block"
+          className=" block"
         >
-          My focus is React (NEXT.JS).
+          <span className="font-bold text-blue-400">My focus is  </span>
+          <span className="font-bold text-yellow-600 underline">React (NEXT.JS)</span>
+          
         </motion.span>
       </motion.h1>
       <motion.div
