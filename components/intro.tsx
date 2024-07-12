@@ -74,22 +74,22 @@ export default function Intro() {
           transition={{ delay: 0.5 }}
           className="block"
         >
-          This is <span className="font-bold text-black">Aryan Tomar!</span>
+          This is <span className="font-bold text-white">Aryan Tomar!</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
-          className=" block"
+          className=" text-gray font-medium block"
         >
           I'm a{" "}
-          <span className="text-black font-bold">Full-Stack Developer 👨‍💻</span>
+          <span className="text-white font-bold">Full-Stack Developer 👨‍💻</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          className=" block"
+          className=" text-gray font-medium block"
         >
           I enjoy building Web-sites & Web-apps.
         </motion.span>
@@ -97,7 +97,7 @@ export default function Intro() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.1 }}
-          className=" block"
+          className="text-gray font-medium block"
         >
           My focus is React (NEXT.JS).
         </motion.span>
