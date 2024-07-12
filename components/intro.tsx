@@ -82,7 +82,7 @@ export default function Intro() {
           transition={{ delay: 0.7 }}
           className=" block"
         >
-          <span className="font-bold text-yellow-600">I'm a{" "}</span>
+          <span className="font-bold text-black">I'm a{" "}</span>
           <span className="text-white font-bold bg-dark">Full-Stack Developer 👨‍💻</span>
         </motion.span>
         <motion.span
@@ -91,7 +91,7 @@ export default function Intro() {
           transition={{ delay: 0.9 }}
           className=" block"
         >
-          <span className="font-bold text-blue-400">I enjoy building Web-sites & Web-apps.</span>
+          <span className="font-bold text-black">I enjoy building Web-sites & Web-apps.</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
@@ -99,8 +99,8 @@ export default function Intro() {
           transition={{ delay: 1.1 }}
           className=" block"
         >
-          <span className="font-bold text-blue-400">My focus is  </span>
-          <span className="font-bold text-yellow-600 underline">React (NEXT.JS)</span>
+          <span className="font-bold text-black">My focus is  </span>
+          <span className="font-bold text-white underline">React (NEXT.JS)</span>
           
         </motion.span>
       </motion.h1>
