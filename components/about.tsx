@@ -9,8 +9,6 @@ export default function About() {
   const { ref } = useSectionInView("About");
   const controls = useAnimation();
 
-    
-
   return (
     <motion.section
       ref={ref}
@@ -25,9 +23,32 @@ export default function About() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
-        className="mb-3"
+        className="mb-3 font-bold"
       >
-        I am <span className="font-bold ">Aryan Tomar</span>, a passionate <span className="font-bold underline">Full-Stack Developer</span>  specializing in web development. My journey in this field has been driven by a deep enthusiasm for creating sophisticated websites and web applications. With a strong proficiency in the MERN stack—MongoDB, Express.js, React, and Node.js—I excel at building dynamic and user-friendly digital experiences. I have extensive experience with database management, particularly with MongoDB, which enables me to design and maintain robust and scalable data solutions. I am particularly adept with React, especially Next.js, which allows me to create seamless and efficient applications. I am committed to staying abreast of the latest industry trends and continually refining my skills to deliver high-quality, innovative solutions. My dedication to web development is reflected in my meticulous attention to detail and my drive to push the boundaries of what’s possible in the digital realm.
+        I am <span className="font-bold text-yellow-600 ">Aryan Tomar</span>, a
+        passionate{" "}
+        <span className="font-bold underline text-yellow-600">
+          Full-Stack Developer
+        </span>{" "}
+        specializing in  
+        <span className="text-yellow-600 "> Web Development. </span>
+         My journey in this field has been
+        driven by a deep enthusiasm for creating sophisticated websites and web
+
+        applications. With a strong proficiency in the MERN stack—
+        <span className="text-yellow-600">MongoDB,
+        
+        Express.js, React, and Node.js</span>
+        —I excel at building dynamic and
+        user-friendly digital experiences. I have extensive experience with
+        database management, particularly with MongoDB, which enables me to
+        design and maintain robust and scalable data solutions. I am
+        particularly adept with <span className="text-yellow-600">React</span> especially <span className="text-yellow-600">Next.js</span> which allows me to
+        create seamless and efficient applications. I am committed to staying
+        abreast of the latest industry trends and continually refining my skills
+        to deliver high-quality, innovative solutions. My dedication to web
+        development is reflected in my meticulous attention to detail and my
+        drive to push the boundaries of what’s possible in the digital realm.
       </motion.p>
 
       <motion.p
