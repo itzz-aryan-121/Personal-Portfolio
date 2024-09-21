@@ -5,6 +5,7 @@ import { FaReact } from "react-icons/fa";
 import BoomImg from "@/public/Boom.png";
 import ChatImg from "@/public/Chat.png";
 import ResImg from "@/public/Res.png";
+import DevImg from "@/public/Dev.png";
 
 export const links = [
   {
@@ -90,7 +91,7 @@ export const projectsData = [
     description:
       "A real-time device tracking where we can see the live location of our device. It is very much popular nowadays for lost and theft mobile.",
     tags: ["Node.JS","Express.JS","EJS","Socketio"],
-    imageURL: ,
+    imageURL: DevImg ,
     link: "https://realtime-device-track-1-l25r.onrender.com/"
   },
 ] as const;
