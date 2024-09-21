@@ -91,7 +91,7 @@ export const projectsData = [
     description:
       "A real-time device tracking where we can see the live location of our device. It is very much popular nowadays for lost and theft mobile.",
     tags: ["Node.JS","Express.JS","EJS","Socketio"],
-    imageURL: DevImg ,
+    imageUrl: DevImg ,
     link: "https://realtime-device-track-1-l25r.onrender.com/"
   },
 ] as const;
