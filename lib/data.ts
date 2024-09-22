@@ -6,6 +6,7 @@ import VidImg from "@/public/Vid.png";
 import ChatImg from "@/public/Chat.png";
 import ResImg from "@/public/Res.png";
 import DevImg from "@/public/Dev.png";
+import CurImg from "@/public/Cur.png";
 
 export const links = [
   {
