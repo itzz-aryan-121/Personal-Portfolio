@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 
-import BoomImg from "@/public/Boom.png";
+import VidImg from "@/public/Boom.png";
 import ChatImg from "@/public/Chat.png";
 import ResImg from "@/public/Res.png";
 import DevImg from "@/public/Dev.png";
@@ -66,9 +66,9 @@ export const projectsData = [
     title: "Video-Conferencing App",
     description:
       "I worked as a full-stack developer on this startup project. Users can give public feedback to it.",
-    tags: ["React", "Next.js", "Clerk", "Tailwind"],
-    imageUrl: BoomImg,
-    link: "https://video-web-to.vercel.app/"
+    tags: ["React", "Next.js", "Firebase", "ZeoCloud"],
+    imageUrl: VidImg,
+    link: "https://video-conferencing-app-tfa3.vercel.app/"
   },
   {
     title: "Real Time Chat Application",
