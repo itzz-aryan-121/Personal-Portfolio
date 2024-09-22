@@ -79,6 +79,13 @@ export const projectsData = [
     link: "https://message-mingle.vercel.app/"
   },
   {
+    title: "Currency-Convertor",
+    description: "A Web-App which is made for conversion of all currencies into different World Countries",
+    tags: ["JavaScript", "HTML", "CSS", ],
+    imageUrl: CurImg,
+    link: "https://currency-convertor-one-lyart.vercel.app/"
+  },
+  {
     title: "Geritch Website",
     description:
       "A website for Restaurant where users can see the menu and book a table.",
