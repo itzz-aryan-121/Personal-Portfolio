@@ -67,7 +67,7 @@ export const projectsData = [
     title: "Video-Conferencing App",
     description:
       "I worked as a full-stack developer on this startup project. Users can give public feedback to it.",
-    tags: ["React", "Next.js", "Firebase", "ZeoCloud"],
+    tags: ["React","Firebase", "ZeoCloud"],
     imageUrl: VidImg,
     link: "https://video-conferencing-app-tfa3.vercel.app/"
   },
