@@ -7,9 +7,17 @@ export default function Footer() {
         &copy; 2024 Aryan. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold">About this website:</span> built with
-        React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend, Vercel hosting.
+        <span className="font-semibold">
+          Made with ❤️ by{" "}
+          <a
+            href="https://github.com/itzz-aryan-121"
+            target="_blank"
+            rel="noreferrer"
+            className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300"
+          >
+            Aryan
+          </a>
+        </span>
       </p>
     </footer>
   );

@@ -18,7 +18,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] text-gray-900 dark:text-white"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -64,7 +64,7 @@ export default function Intro() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className=" block"
+          className="block"
         >
           Hey!
         </motion.span>
@@ -72,37 +72,41 @@ export default function Intro() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="block"
+          className="block font-bold"
         >
-          <span className="font-bold text-[#1a1a2e]">This is</span> <span className="font-bold text-white">Aryan Tomar!</span>
+          <span className="text-gray-900 dark:text-gray-200">This is</span>{" "}
+          <span className="text-gray-900 dark:text-gray-200">Aryan Tomar!</span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
-          className=" block"
+          className="block"
         >
-          <span className="font-bold text-black">I'm a{" "}</span>
-          <span className="text-white font-bold bg-dark">Full-Stack Developer 👨‍💻</span>
+          <span className="text-gray-900 dark:text-gray-200">
+            I'm a Full-Stack Developer 👨‍💻
+          </span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          className=" block"
+          className="block"
         >
-          <span className="font-bold text-black">I enjoy building</span>
-          <span className="text-white font-bold">  Web-sites & Web-apps</span>
+          <span className="text-gray-900 dark:text-gray-200">
+            I enjoy building Websites & Web-apps
+          </span>
         </motion.span>
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.1 }}
-          className=" block"
+          className="block"
         >
-          <span className="font-bold text-black">My focus is  </span>
-          <span className="font-bold text-white underline">React (NEXT.JS)</span>
-          
+          <span className="text-gray-900 dark:text-gray-200">My focus is </span>
+          <span className="text-gray-900 dark:text-gray-200 underline">
+            React (NEXT.JS)
+          </span>
         </motion.span>
       </motion.h1>
       <motion.div
@@ -126,17 +130,16 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black dark:bg-white/10 dark:text-white/60"
           href="/RESUME_AryanTomar_ABESEC.pdf"
           download
         >
-          {" "}
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/aryan-t-494482251/"
           target="_blank"
         >
@@ -144,7 +147,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black dark:bg-white/10 dark:text-white/60"
           href="https://github.com/itzz-aryan-121"
           target="_blank"
         >

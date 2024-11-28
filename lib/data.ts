@@ -38,12 +38,12 @@ export const links = [
 export const experiencesData = [
   
   {
-    title: "Full-Stack Developer",
-    location: "ABES ENGINEERING COLLEGE",
+    title: "Web Developer",
+    location: "Zidio Development",
     description:
-      "I'm now a full-stack developer.My stack includes React, Next.js, TypeScript, Tailwind, Firebase and MongoDB.I'm open to full-time opportunities.",
+      "I'm Working as an Web Developer intern @ Zidio Development.My stack includes React, Next.js, TypeScript, Tailwind, Firebase and MongoDB.I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2024 - present",
   },
   {
     title: "Online Training",
@@ -79,13 +79,7 @@ export const projectsData = [
     imageUrl: ChatImg,
     link: "https://message-mingle.vercel.app/"
   },
-  {
-    title: "Currency-Convertor",
-    description: "A Web-App which is made for conversion of all currencies into different World Countries",
-    tags: ["JavaScript", "HTML", "CSS", ],
-    imageUrl: CurImg,
-    link: "https://currency-convertor-one-lyart.vercel.app/"
-  },
+  
   {
     title: "QR-Code Generator",
     description:
