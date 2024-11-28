@@ -87,12 +87,12 @@ export const projectsData = [
     link: "https://currency-convertor-one-lyart.vercel.app/"
   },
   {
-    title: "Geritch Website",
+    title: "QR-Code Generator",
     description:
-      "A website for Restaurant where users can see the menu and book a table.",
-    tags: ["React", "Tailwind", "Framer"],
+      "A website for Generating QR-Code. These codes can be easily scanned by mobile devices to access the encoded information quickly. ",
+    tags: ["Nextjs", "Tailwind", "Shadcn"],
     imageUrl: ResImg,
-    link: "https://geritch-svg.vercel.app/"
+    link: "https://qr-code-gen-new.vercel.app/"
   },
   {
     title: "Real Time Device Tracking",
